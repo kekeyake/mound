@@ -1,0 +1,276 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  font-family: "NanumSquare", "Apple SD Gothic Neo", dotum,"돋움",Arial,Sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+
+body, input, select, button, textarea, h1, h2, h3, h4, h5, h6, table {
+  line-height: 1.5;
+  font: inherit;
+  color: inherit;
+}
+
+html, body, div, form, input, select, button, textarea, legend, fieldset, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, blockquote, address, p, th, td, caption {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+img, fieldset {
+  vertical-align: middle;
+  border: 0 none;
+}
+
+input, select, textarea {
+  vertical-align: middle;
+  resize: none;
+}
+
+input[type=text], input[type=password], input[type=submit], input[type=search], input[type=email], input[type=tel], textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+select {
+  padding: 5px 20px 5px 10px;
+  border-radius: 0;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: 1px solid #c9c9c9;
+}
+
+/* IE 에서 Select box 화살표 제거 */
+select::-ms-expand {
+  display: none;
+}
+
+button {
+  border: 0 none;
+  background: transparent;
+  cursor: pointer;
+  font-family: "NanumSquare", "Apple SD Gothic Neo";
+}
+
+hr {
+  display: none;
+}
+
+legend, .hide {
+  position: absolute;
+  left: -9999px;
+}
+
+table caption {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  text-indent: -9999px;
+  font-size: 0;
+  line-height: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+header, footer, section, article, aside, nav, hgroup, main, details, menu, figure, figcaption {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* common */
+.left_box {
+  float: left;
+}
+
+.right_box {
+  float: right;
+}
+
+.blind {
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  left: -1000%;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:active, a:hover, a:focus {
+  text-decoration: none;
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.m_br {
+  display: none;
+}
+
+.pc_br {
+  display: block;
+}
+
+.poppins {
+  font-family: "Poppins", "Apple SD Gothic Neo", sans-serif;
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f4f4f4;
+}
+
+.bg_dimmed {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.header {
+  width: 100%;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.header .inner {
+  min-width: 1080px;
+  max-width: 1920px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .inner nav {
+  position: absolute;
+  right: 0;
+  top: 84px;
+  width: 209px;
+  background-color: #fff;
+  padding: 45px 0 0 26px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.05);
+}
+
+.header .inner nav li {
+  margin-bottom: 37px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
+  position: relative;
+  padding-left: 25px;
+}
+
+.header .inner nav li.on, .header .inner nav li:hover {
+  color: #333;
+  font-weight: 700;
+}
+
+.header .inner nav li.on::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-image: linear-gradient(225deg, rgba(0, 10, 255, 0.74) 0, #b231be 100%);
+  position: absolute;
+  left: 0;
+  top: 3px;
+  -webkit-transform: rotate(-270deg);
+          transform: rotate(-270deg);
+}
+
+.header .inner .language_box a {
+  font-size: 18px;
+  color: #acacac;
+  margin: 0 10px;
+}
+
+.header .inner .language_box a.on, .header .inner .language_box a:hover {
+  font-weight: 500;
+  color: #000;
+}
+
+.header.sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.main {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.footer {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.78;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.footer .inner {
+  padding: 5%;
+}
+
+.footer .inner p {
+  line-height: 2.2;
+}
+/*# sourceMappingURL=mound_pc_kr_index.css.map */
