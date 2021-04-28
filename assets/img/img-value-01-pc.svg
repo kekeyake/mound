@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="800" viewBox="0 0 960 800">
+    <defs>
+        <linearGradient id="i3u9m57p5d" x1="0%" x2="100%" y1="100%" y2="0%">
+            <stop offset="0%"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="swrtvnp5ve" x1="0%" x2="100%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#E1E1E1"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="mtduj8r07a" width="166.1%" height="166.1%" x="-33%" y="-32.6%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+        <filter id="22i5mi1j2b" width="167.4%" height="167.4%" x="-33.7%" y="-33.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        </filter>
+        <circle id="k4y7iapiwc" cx="473" cy="400" r="233"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g filter="url(#mtduj8r07a)" opacity=".155" transform="translate(0 -1298) translate(0 1298)">
+                    <use fill="#000" filter="url(#22i5mi1j2b)" xlink:href="#k4y7iapiwc"/>
+                    <use fill="url(#i3u9m57p5d)" xlink:href="#k4y7iapiwc"/>
+                </g>
+                <g fill="url(#swrtvnp5ve)" transform="translate(0 -1298) translate(0 1298) translate(320 99)">
+                    <circle cx="233" cy="233" r="233"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1164" viewBox="0 0 960 1164">
+    <defs>
+        <linearGradient id="3tyavd3mla" x1="0%" x2="100%" y1="100%" y2="0%">
+            <stop offset="0%"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="7gh1e9j99c" x1="42.355%" x2="57.645%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#E1E1E1"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="vjxozhftdb" width="171.8%" height="171.8%" x="-35.9%" y="-35.9%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-960 -1462) translate(960 1425) translate(148.372)">
+                    <circle cx="659.628" cy="835.946" r="209" fill="url(#3tyavd3mla)" filter="url(#vjxozhftdb)" opacity=".155"/>
+                    <path fill="url(#7gh1e9j99c)" d="M576-9.602c126.465 0 228.985 102.52 228.985 228.985v713.234c0 126.465-102.52 228.985-228.985 228.985-126.465 0-228.985-102.52-228.985-228.985V219.383C347.015 92.918 449.535-9.602 576-9.602z" transform="rotate(45 576 576)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

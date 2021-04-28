@@ -2,7 +2,8 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
+    <meta name="viewport" content="width=1190">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta property="og:type" content="website">
     <meta property="og:title" content="MOUND">
@@ -13,139 +14,150 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon_mound.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/mound_pc_kr_index.min.css" />
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <link rel="stylesheet" href="assets/css/mound_pc_kr_index.min.css" />
 </head>
 <body>
 <div class="bg_dimmed"></div>
-<div id="wrap">
+<div id="wrap" class="wrap">
     <header class="header">
         <section class="inner">
             <h1 class="logo">
-                <a href="/"><img src="assets/img/logo-mound-pc.svg" alt="mound"></a>
+                <a href="#a" id="logoTop"><img src="assets/img/logo-mound-pc.svg" alt="mound"></a>
             </h1>
             <div class="language_box poppins">
                 <a href="#a">ENG</a>
                 <a href="#a" class="on">KOR</a>
             </div>
-            <button class="pc_menu"><img src="assets/img/header-ic-menu.svg" alt="menu"></button>
+            <button class="pc_menu"></button>
             <nav>
-                <ul>
-                    <li class="on"><a href="#a" rel="home">홈</a></li>
-                    <li><a href="#a" rel="mission">미션</a></li>
-                    <li><a href="#a" rel="value">밸류</a></li>
-                    <li><a href="#a" rel="project">프로젝트</a></li>
-                    <li><a href="#a" rel="team">팀</a></li>
-                    <li><a href="#a" rel="news">뉴스</a></li>
+                <ul id="menu">
+                    <li rel="home" class="active"><a href="#home">홈</a></li>
+                    <li rel="mission"><a href="#mission">미션</a></li>
+                    <li rel="value"><a href="#value">밸류</a></li>
+                    <li rel="project"><a href="#project">프로젝트</a></li>
+                    <li rel="team"><a href="#team">팀</a></li>
+                    <li rel="news"><a href="#news">뉴스</a></li>
                 </ul>
             </nav>
         </section>
     </header>
     <main class="main">
-        <section class="container">
-            <section class="home" id="home">
-                <div class="inner">
-                    <ul class="sns_list">
-                        <li><a href="#a"><img src="assets/img/ic-sns-twitter-pc.svg" alt="twitter"></a></li>
-                        <li><a href="#a"><img src="assets/img/ic-sns-telegram-pc.svg" alt="telegram"></a></li>
-                        <li><a href="#a"><img src="assets/img/ic-sns-discord-pc.svg" alt="discord"></a></li>
-                    </ul>
-                    <h2 class="title">궁국의 디파이 플랫폼</h2>
-                    <p class="t1">마운드는 블록체인 기반의 금융 플랫폼 서비스를 개발하는 혁신적인 금융 기술 기업입니다. <br>블록체인 관한 배경 지식이 없는 유저들도 최첨단의 금융 기술을 경험할 수 있도록 하는 플랫폼을 개발합니다.</p>
-                    <button class="btn_next"><img src="assets/img/ic-arrow-down-pc.svg" alt=""></button>
-                </div>
-            </section>
-            <section class="mission" id="mission">
-                <div class="inner">
-                    <h2 class="title">디파이의 혁신을 마운드와 함께 간편하게</h2>
-                    <p class="t1">마운드는 디파이 생태계 내 블록체인을 이용한 안전하고 혁신적인 금융 플랫폼을 개발합니다. 일반 투자자들과 소상공인들이 빠르게 변화하고 있는 디파이의 각종 금융 혁신을 활용 할 수 있도록 다양한 서비스를 제공합니다.</p>
-                    <ul>
-                        <li>디파이 생태계 내 최적화 된 전략을 기획하고 디파이가 낯선 일반 유저들도 쉽게 이용할 수 있는 편리한 UI 및 기능을 개발하고 있습니다.</li>
-                        <li>반복적이고 세심한 개발 과정을 통해, 저희는 디파이의 저위험 고수익 장점을 유저들에게 제공하고, 중앙화 금융의 한계점들을 극복하고자 합니다.</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="value" id="value">
-                <div class="inner">
-                    <ol>
-                        <li>
-                            <b>관리된 리스크 <br>그리고 높은 투자 수익</b>
-                            <p>혁신을 이루고 있는 디파이 생태계 내에서 다양한 투자 전략을 통해 리스크를 관리하고 높은 수익을 이룰 수 있는 서비스를 제공합니다.</p>
-                        </li>
-                        <li>
-                            <b>높은 유용성과 <br>편리한 접근성</b>
-                            <p>디파이에 대한 지식이 없는 유저들도 편리하게 사용할 수 있는 서비스를 제공합니다.</p>
-                        </li>
-                        <li>
-                            <b>간편한 <br>페이먼트</b>
-                            <p>새로운 페이먼트 경험과 할인 혜택을 사용자들에게 돌려 드립니다. </p>
-                        </li>
-                    </ol>
-                </div>
-            </section>
-            <section class="project" id="project">
-                <div class="inner">
-                    <div class="pancake_bunny cont on">
-                        <div class="img_box">
-                            <img src="" alt="">
-                        </div>
-                        <div class="tit_box">
-                            <p class="title">PancakeBunny</p>
-                            <span>Active</span>
-                            <a href="#a" class="btn_link"></a>
-                        </div>
-                        <div class="text_box">
-                            <p>팬케이크버니는 글로벌 1위의 디파이 이자 농사 플랫폼으로 다양한 토큰들을 통해 자동으로 복리화된 최적의 투자 수익을 얻을 수 있도록 합니다.</p>
-                            <p>2021년 4월 현재 6조원 정도의 자산이 예치되어 있으며 일일 엑티브 유저 수는 약 2만명 입니다.</p>
-                            <p>팬케이크버니는 현재 바이낸스 스마트 체인 내에서 투자 활동을 지원하지만 곧 이더리움 메인 네트워크를 통해서도 이자 농사 활동을 할 수 있도록 크로스 체인 파밍 기능을 오픈 할 예정입니다.</p>
-                        </div>
-                    </div>
-                    <div class="snoball cont off">
-                        <div class="img_box">
-                            <p>Launching late 2021</p>
-                        </div>
-                        <div class="tit_box">
-                            <p class="title">Snoball</p>
-                            <span>Launching late 2021</span>
-                            <a href="#a" class="btn_link"></a>
-                        </div>
-                        <div class="text_box">
-                            <p>스노우볼은 일반 유저들의 디파이 생태계내 투자를 더욱 쉽고 편리하게 도와 줄 모바일 어플리케이션 서비스 입니다.</p>
-                            <p>유저들이 모바일에서 더욱 쉽게 이자 농사를 하고 언제 어디서나 최적화된 UI를 통해 투자 현황을 파악할 수 있을 것 입니다.</p>
-                            <p>마운드는 스노우볼을 통해 팬케이크버니 서비스의 접근성과 유용성을 대폭 개선시키고 디파이 생태계 내 투자 기회를 일반 대중들에게 쉽고 편리하게 제공 하고자 합니다.</p>
-                        </div>
+
+        <section class="home section" id="home">
+            <div class="inner">
+                <ul class="sns_list">
+                    <li><a href="#a"><img src="assets/img/ic-sns-twitter-pc.svg" alt="twitter"></a></li>
+                    <li><a href="#a"><img src="assets/img/ic-sns-telegram-pc.svg" alt="telegram"></a></li>
+                    <li><a href="#a"><img src="assets/img/ic-sns-discord-pc.svg" alt="discord"></a></li>
+                </ul>
+                <div class="ml10">
+                    <div class="text-wrapper">
+                        <h1 class="letters">궁국의 디파이 플랫폼</h1>
                     </div>
                 </div>
-            </section>
-            <section class="team" id="team">
-                <div class="inner">
-                    <h2>Team</h2>
+                <p class="t1">마운드는 블록체인 기반의 금융 플랫폼 서비스를 개발하는 혁신적인 금융 기술 기업입니다. <br>블록체인 관한 배경 지식이 없는 유저들도 최첨단의 금융 기술을 경험할 수 있도록 하는 플랫폼을 개발합니다.</p>
+                <a href="#mission" id="btnNext" class="btn_next"><img src="assets/img/ic-arrow-down-pc.svg" alt=""></a>
+            </div>
+        </section>
+
+        <section class="mission section" id="mission">
+            <div class="inner">
+                <h2 class="title">디파이의 혁신을 마운드와 함께 간편하게</h2>
+                <p class="t1">마운드는 디파이 생태계 내 블록체인을 이용한 안전하고 혁신적인 금융 플랫폼을 개발합니다. 일반 투자자들과 소상공인들이 빠르게 변화하고 있는 디파이의 각종 금융 혁신을 활용 할 수 있도록 다양한 서비스를 제공합니다.</p>
+                <ul>
+                    <li>디파이 생태계 내 최적화 된 전략을 기획하고 디파이가 낯선 일반 유저들도 쉽게 이용할 수 있는 편리한 UI 및 기능을 개발하고 있습니다.</li>
+                    <li>반복적이고 세심한 개발 과정을 통해, 저희는 디파이의 저위험 고수익 장점을 유저들에게 제공하고, 중앙화 금융의 한계점들을 극복하고자 합니다.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="value section" id="value">
+            <div class="inner">
+                <ol>
+                    <li aos="fade-up" data-aos-duration="1000">
+                        <span class="num">1</span>
+                        <b>관리된 리스크 <br>그리고 높은 투자 수익</b>
+                        <p>혁신을 이루고 있는 디파이 생태계 내에서 다양한 투자 전략을 통해 리스크를 관리하고 높은 수익을 이룰 수 있는 서비스를 제공합니다.</p>
+                    </li>
+                    <li>
+                        <span class="num">2</span>
+                        <b>높은 유용성과 <br>편리한 접근성</b>
+                        <p>디파이에 대한 지식이 없는 유저들도 편리하게 사용할 수 있는 서비스를 제공합니다.</p>
+                    </li>
+                    <li>
+                        <span class="num">3</span>
+                        <b>간편한 <br>페이먼트</b>
+                        <p>새로운 페이먼트 경험과 할인 혜택을 사용자들에게 돌려 드립니다. </p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="project section" id="project">
+            <div class="inner">
+                <div class="pancake_bunny cont">
+                    <div class="img_box">
+                        <img src="assets/img/img-projects-pancakebunny.png" alt="pancakebunny">
+                    </div>
+                    <div class="tit_box on">
+                        <p class="title">PancakeBunny</p>
+                        <span>Active</span>
+                        <a href="#a" class="btn_link"><img src="assets/img/ic-arrow-right-pc.svg" alt=""></a>
+                    </div>
+                    <div class="text_box">
+                        <p>팬케이크버니는 글로벌 1위의 디파이 이자 농사 플랫폼으로 다양한 토큰들을 통해 자동으로 복리화된 최적의 투자 수익을 얻을 수 있도록 합니다.</p>
+                        <p>2021년 4월 현재 6조원 정도의 자산이 예치되어 있으며 일일 엑티브 유저 수는 약 2만명 입니다.</p>
+                        <p>팬케이크버니는 현재 바이낸스 스마트 체인 내에서 투자 활동을 지원하지만 곧 이더리움 메인 네트워크를 통해서도 이자 농사 활동을 할 수 있도록 크로스 체인 파밍 기능을 오픈 할 예정입니다.</p>
+                    </div>
+                </div>
+                <div class="snoball cont">
+                    <div class="img_box">
+                        <img src="assets/img/img-projects-snoball.png" alt="snoball">
+                    </div>
+                    <div class="tit_box off">
+                        <p class="title">Snoball</p>
+                        <span>Launching late 2021</span>
+                        <a href="#a" class="btn_link"><img src="assets/img/ic-arrow-right-pc.svg" alt=""></a>
+                    </div>
+                    <div class="text_box">
+                        <p>스노우볼은 일반 유저들의 디파이 생태계내 투자를 더욱 쉽고 편리하게 도와 줄 모바일 어플리케이션 서비스 입니다.</p>
+                        <p>유저들이 모바일에서 더욱 쉽게 이자 농사를 하고 언제 어디서나 최적화된 UI를 통해 투자 현황을 파악할 수 있을 것 입니다.</p>
+                        <p>마운드는 스노우볼을 통해 팬케이크버니 서비스의 접근성과 유용성을 대폭 개선시키고 디파이 생태계 내 투자 기회를 일반 대중들에게 쉽고 편리하게 제공 하고자 합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team section" id="team">
+            <div class="inner">
+                <h2>Team</h2>
+                <div>   
                     <p>팀 마운드는 글로벌 금융 기술 전문가들과 블록체인 개발 전문가들로 구성되어 있습니다. 금융, 블록체인 서비스 개발, 게임 및 스타트업 등 다양한 배경의 전문가들로 구성된 팀 마운드는 전세계 각지에서 활동 중에 있습니다.</p>
                     <p>우리는 최근 빠르게 발전하고 있는 다양한 금융 혁신 속에서 디파이 생태계의 진입 장벽을 낮추고자 꾸준히 노력하고 있습니다. 팀 마운드의 미션은 탈중앙화 금융의 대중화와 이를 통해 더욱 건강한 디파이 생태계 및 투자의 활성화 입니다.</p>
-                </div>
-            </section>
-            <section class="news" id="news">
-                <div class="inner">
-                    <h2>News</h2>
-                    <ul class="news_list">
-                        <li>
-                            <div class="img_box">
-                                <img src="" alt="">
-                            </div>
-                            <p class="tit">Binance Labs leads $1.6M seed round in DeFi startup MOUND, the developer of Pancake Bunny</p>
-                            <p class="txt">Decentralized finance startup MOUND, known for its yield farming aggregator Pancake Bunny, has raised $1.6 million in seed funding led by Binance Labs.</p>
-                        </li>
-                        <li>
-                            <div class="img_box">
-                                <img src="" alt="">
-                            </div>
-                            <p class="tit">Binance Labs leads $1.6M seed round in DeFi startup MOUND, the developer of Pancake Bunny</p>
-                            <p class="txt">Decentralized finance startup MOUND, known for its yield farming aggregator Pancake Bunny, has raised $1.6 million in seed funding led by Binance Labs.</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+                </div>                
+            </div>
+        </section>
+        <section class="news section" id="news">
+            <div class="inner">
+                <h2>News</h2>
+                <ul class="news_list">
+                    <li>
+                        <div class="img_box">
+                            <img src="assets/img/img-news-binance.png" alt="">
+                        </div>
+                        <p class="tit">Binance Labs leads $1.6M seed round in DeFi startup MOUND, the developer of Pancake Bunny</p>
+                        <p class="txt">Decentralized finance startup MOUND, known for its yield farming aggregator Pancake Bunny, has raised $1.6 million in seed funding led by Binance Labs.</p>
+                    </li>
+                    <li>
+                        <div class="img_box">
+                            <img src="assets/img/img-news-binance.png" alt="">
+                        </div>
+                        <p class="tit">Binance Labs leads $1.6M seed round in DeFi startup MOUND, the developer of Pancake Bunny</p>
+                        <p class="txt">Decentralized finance startup MOUND, known for its yield farming aggregator Pancake Bunny, has raised $1.6 million in seed funding led by Binance Labs.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -154,8 +166,24 @@
         </section>        
     </footer>
 </div>
-
 <script defer src="assets/js/jquery-3.4.1.min.js"></script>
+<script defer src="assets/libs/jquery.easings.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script defer src="assets/js/ui.js"></script>
+<script>
+    
+
+    // Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml10 .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<h1 class='letter'>$&</h1>");
+
+    anime.timeline({loop: false})
+    .add({
+        targets: '.ml10 .letter',
+        rotateY: [-90, 0],
+        duration: 1200,
+        delay: (el, i) => 130 * i
+    });
+</script>
 </body>
 </html>
