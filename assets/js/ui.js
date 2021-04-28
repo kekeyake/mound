@@ -7,8 +7,8 @@ $(function () {
         // } else {
         //     $('#return-to-top').fadeOut(200);   // Else fade out the arrow
         // }
-        let scPos = $(this).scrollTop();
-        let nav = $('nav li');
+        // let scPos = $(this).scrollTop();
+        // let nav = $('nav li');
         if ($(window).scrollTop() > 100) {
             $('header').addClass('sticky');
         } else {
