@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="606" viewBox="0 0 335 606">
+    <defs>
+        <linearGradient id="od0q4xdsna" x1="0%" x2="100%" y1="100%" y2="0%">
+            <stop offset="0%"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="1ef12mndmc" x1="42.355%" x2="57.645%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#E1E1E1"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="9rjvfm03bb" width="244.2%" height="244.2%" x="-72.1%" y="-72.1%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-40 -1732) translate(40 1586.097) translate(85.097)">
+                    <circle cx="330.903" cy="419.903" r="104" fill="url(#od0q4xdsna)" filter="url(#9rjvfm03bb)" opacity=".155"/>
+                    <path fill="url(#1ef12mndmc)" d="M288.5-4.81c63.342 0 114.691 51.35 114.691 114.692v357.236c0 63.342-51.349 114.691-114.691 114.691-63.342 0-114.691-51.349-114.691-114.691V109.882c0-63.342 51.349-114.691 114.691-114.691z" transform="rotate(45 288.5 288.5)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
