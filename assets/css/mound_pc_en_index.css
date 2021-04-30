@@ -328,7 +328,7 @@ body {
 
 @-webkit-keyframes moveBox {
   from {
-    left: 20px;
+    left: -50px;
   }
   to {
     left: 150px;
@@ -337,7 +337,7 @@ body {
 
 @keyframes moveBox {
   from {
-    left: 20px;
+    left: -50px;
   }
   to {
     left: 150px;
@@ -346,19 +346,19 @@ body {
 
 @-webkit-keyframes moveBox2 {
   from {
-    left: 200px;
+    left: 100px;
   }
   to {
-    left: 20px;
+    left: -50px;
   }
 }
 
 @keyframes moveBox2 {
   from {
-    left: 200px;
+    left: 100px;
   }
   to {
-    left: 20px;
+    left: -50px;
   }
 }
 

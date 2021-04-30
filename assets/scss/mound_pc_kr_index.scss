@@ -172,12 +172,12 @@ body {background-color: #f4f4f4;}
         }
     }
     @keyframes moveBox {
-        from {left:20px;}
+        from {left:-50px;}
         to {left:150px;}
     }
     @keyframes moveBox2 {
-        from {left:200px;}
-        to {left:20px;}
+        from {left:100px;}
+        to {left:-50px;}
     }
     .section {
         width: 100%;
