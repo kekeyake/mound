@@ -317,13 +317,13 @@ body {
 .main .circle.a {
   left: 120px;
   z-index: 2;
-  animation: moveBox 1.5s ease-in-out infinite alternate-reverse;
+  animation: moveBox 1.2s ease-in-out infinite alternate-reverse;
 }
 
 .main .circle.b {
   left: 250px;
   z-index: 1;
-  animation: moveBox2 1.5s ease-in-out infinite alternate-reverse;
+  animation: moveBox2 1.2s ease-in-out infinite alternate-reverse;
 }
 
 @-webkit-keyframes moveBox {
