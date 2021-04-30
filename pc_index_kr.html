@@ -44,7 +44,8 @@
         </section>
     </header>
     <main class="main">
-
+        <span class="circle a"></span>
+        <span class="circle b"></span>
         <section class="home section" id="home">
             <div class="inner">
                 <ul class="sns_list">
@@ -54,7 +55,7 @@
                 </ul>
                 <div class="ml10">
                     <div class="text-wrapper">
-                        <h1 class="letters">궁국의 디파이 플랫폼</h1>
+                        <h1 class="letters">디파이를 모두에게</h1>
                     </div>
                 </div>
                 <p class="t1 aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">마운드는 블록체인 기반의 금융 플랫폼 서비스를 개발하는 혁신적인 금융 기술 기업입니다. <br>블록체인 관한 배경 지식이 없는 유저들도 최첨단의 금융 기술을 경험할 수 있도록 하는 플랫폼을 개발합니다.</p>
@@ -165,13 +166,14 @@
     </main>
     <footer class="footer">
         <section class="inner">
+            <p>hello@mound.finance</p>
             <p class="copy">Copyright © 2021 Mound Inc. All rights reserved.</p>
         </section>        
     </footer>
 </div>
 <script defer src="assets/js/jquery-3.4.1.min.js"></script>
 <script defer src="assets/libs/jquery.easings.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script defer src="assets/js/ui.js"></script>
 <script>
@@ -180,17 +182,17 @@
         duration: 1000
     });
 
-    // Wrap every letter in a span
-    var textWrapper = document.querySelector('.ml10 .letters');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<h1 class='letter'>$&</h1>");
+    // // Wrap every letter in a span
+    // var textWrapper = document.querySelector('.ml10 .letters');
+    // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<h1 class='letter'>$&</h1>");
 
-    anime.timeline({loop: false})
-    .add({
-        targets: '.ml10 .letter',
-        rotateY: [-90, 0],
-        duration: 1200,
-        delay: (el, i) => 130 * i
-    });
+    // anime.timeline({loop: false})
+    // .add({
+    //     targets: '.ml10 .letter',
+    //     rotateY: [-90, 0],
+    //     duration: 1200,
+    //     delay: (el, i) => 130 * i
+    // });
 </script>
 </body>
 </html>

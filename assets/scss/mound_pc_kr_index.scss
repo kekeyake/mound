@@ -152,33 +152,32 @@ body {background-color: #f4f4f4;}
     max-width: 1920px;
     margin: 0 auto;
     position: relative;
-    &::before {
-        content: '';
+    .circle {
         display: block;
         width: 952px;
         height: 952px;
-        background-image: linear-gradient(48deg, #e1e1e1 0, #fff 100%);
+        box-shadow: 100px 150px 200px 0 rgba(0, 0, 0, 0.08);
         border-radius: 100%;
         position: absolute;
-        left: 120px;
         top:-96px;
-        z-index: 2;
+        &.a {
+            left: 120px;
+            z-index: 2;
+            animation:moveBox 1.5s ease-in-out infinite alternate-reverse;
+        }
+        &.b {
+            left:250px;
+            z-index: 1;
+            animation:moveBox2 1.5s ease-in-out infinite alternate-reverse;
+        }
     }
-    &::after {
-        content: '';
-        display: block;
-        width: 952px;
-        height: 952px;
-        opacity: 0.15;
-        -webkit-filter: blur(50px);
-        filter: blur(50px);
-        background-image: linear-gradient(45deg, #000 0, #fff 100%);
-
-        border-radius: 100%;
-        position: absolute;
-        left: 257px;
-        top:47px;
-        z-index: 1;
+    @keyframes moveBox {
+        from {left:20px;}
+        to {left:320px;}
+    }
+    @keyframes moveBox2 {
+        from {left:320px;}
+        to {left:20px;}
     }
     .section {
         width: 100%;
@@ -207,13 +206,13 @@ body {background-color: #f4f4f4;}
         .text-wrapper {
             width: 650px;
         }
-        .ml10 .letter {
+        .ml10 .letters {
             display: inline-block;
             line-height: 1em;
             transform-origin: 0 0;
             font-size: 66px;
             font-weight: 900;
-            &:nth-child(3n) {
+            &:nth-child(4) {
                 margin-right: 10px;
             }
         }
